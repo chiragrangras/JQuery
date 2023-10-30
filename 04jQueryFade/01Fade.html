@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Effect in Jquery</title>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        margin: 10px;
+        font-size: 30px;
+        color: blue;
+      }
+      .box {
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        background-color: brown;
+      }
+      .toggle {
+        margin: 10px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      .To{
+        margin: 10px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Effect in Jquery</h1>
+    <div class="box"></div>
+    <button class="toggle">FadeToggle</button>
+    <button class="To">FadeTo</button>
+    <script>
+      $(document).ready(function () {
+        $(".toggle").click(function () {
+          $(".box").fadeToggle(2000);
+        });
+        $(".To").click(function () {
+          $(".box").fadeTo(2000, 0.5);
+        });
+      });
+    </script>
+  </body>
+</html>
