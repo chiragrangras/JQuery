@@ -2,57 +2,103 @@
     margin: 0;
     padding: 0;
 }
+.container {
+    display: flex;
+    height: 100vh;
+}
+.dark-theme{
+    background-color: #333 !important;
+    color: white !important;
+}
+.light-theme{
+    background-color: white;
+    color: #333;
+}
 .nav{
-    background-color: black;
     text-align: center;
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: white;
 }
 .nav a{
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 30px;
 }
 #dark{
-    background-color: black;
-    color: white;
     font-size: 20px;
     border: 1px solid white;
     padding: 5px;
     cursor: pointer;
     border-radius: 5px;
 }
-#light{
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    border: 1px solid white;
-    padding: 5px;
-    cursor: pointer;
-    border-radius: 5px;
-}
+
 body {
-    width:1263px;
+    /* width:1263px; */
+    background-color: white;
 }
-#left, #content, #right {
+/* #left, #content, #right {
     padding-top: 10px;
     float: left;
     text-align: center;
-}
+} */
 #left{
+    flex: 1;
+    position: fixed;
+    top: 34px;
+    width: 150px;
+    color: black;
+}
+#left-container{
     display: flex;
     flex-direction: column;
-    width: 259px;
-    background-color: orange;
-    color: white;
+    padding: 20px;
+    gap: 10px;
+}
+#left-container a{
+    color: black;
+}
+.acc-container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+#demo-acc a{
+    color: black;
 }
 #content {
-    width: 700px;
-    background-color: red;
-    color: white;
+    position: absolute;
+    top: 34px;
+    left: 150px;
+    flex: 3;
+    overflow-y: auto;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 773px;
+}
+#content-container{
+    display: flex;
 }
 #right{
+    flex: 1;
+    position: fixed;
     width: 300px;
-    background-color: orange;
-    color: white;
+    color: black;
+    top: 34px;
+    bottom: 0;
+    right: 0;
+    overflow-y: auto;
+}
+#right-container{
+    display: flex;
+    padding: 20px;
+}
+#demo-acc{
+    display: none;
 }
