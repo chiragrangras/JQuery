@@ -16,17 +16,17 @@
     <script src="../js/jquery-3.7.1.min.js"></script>
   </head>
   <body>
-    <div id="nav-bar" class="nav dark-theme">
-      <a href="#" class="dark-theme">Home</a>
-      <a href="#" class="dark-theme">Menu</a>
-      <a href="#" class="dark-theme">About Us</a>
-      <a href="#" class="dark-theme">Contact Us</a>
-      <button id="dark">Dark Mode</button>
+    <div id="nav-bar" class="nav">
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+      <a id="dark"><i class="fa-solid fa-moon"></i></a>
     </div>
     <div class="container">
-      <div id="left" class="dark-theme">
+      <div id="left">
         <div id="left-container">
-          <a href="#" class="dark-theme">Link 1</a>
+          <a href="#">Link 1</a>
           <button class="btn-1" id="acc-btn">
             Accordion<i class="fa fa-caret-down"></i>
             <div id="demo-acc">
@@ -36,12 +36,21 @@
               </div>
             </div>
           </button>
-          <a href="#" class="dark-theme">Link 2</a>
-          <a href="#" class="dark-theme">Link 3</a>
-          <a href="#" class="dark-theme">Link 4</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          <button class="btn-2" id="drop-btn">
+            DropDown<i class="fa fa-caret-down"></i>
+            <div id="down-acc">
+              <div class="acc-container">
+                <a href="#" class="drop-link">Link</a>
+                <a href="#" class="drop-link">Link</a>
+              </div>
+            </div>
+          </button>
+          <a href="#">Link 4</a>
         </div>
       </div>
-      <div id="content" class="dark-theme">
+      <div id="content">
         <div id="content-container">
           <article>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
@@ -128,7 +137,7 @@
           </article>
         </div>
       </div>
-      <div id="right" class="dark-theme">
+      <div id="right">
         <div id="right-container">
           <article>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
