@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark dark with jquery</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        }
+        h1{
+            text-align: center;
+            margin-top: 10px;
+        }
+        p{
+            margin: 20px;
+            font-size: 30px;
+            font-style: italic;
+            font-family: sans-serif;
+        }
+        .dark{
+            font-size: 20px;
+            margin-left: 450px;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .light{
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 5px;
+        }
+    </style>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <h1>Dark dark with Jquery</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+      similique quibusdam, ut amet pariatur debitis laboriosam ad mollitia
+      consectetur quas cupiditate modi saepe in temporibus totam. Eius labore
+      animi, voluptate necessitatibus natus saepe delectus quibusdam
+      reprehenderit. Impedit aliquid quasi rerum debitis blanditiis accusamus
+      saepe quidem, modi, sint iure, inventore iusto?
+    </p>
+    <button class="dark">Dark Mode</button>
+    <button class="light">Light Mode</button>
+
+    <script>
+        $(document).ready(function(){
+            $('.dark').click(function(){
+                $('body').css({'background-color' : 'black', color : 'white'})
+            });
+            $('.light').click(function(){
+                $('body').css({'background-color' : 'grey', color : 'black'})
+            });
+        });
+    </script>
+  </body>
+</html>
