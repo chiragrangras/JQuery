@@ -147,61 +147,6 @@
         </div>
       </div>
     </div>
-    <script>
-      function showAcc() {
-        $("#demo-acc").show();
-      }
-
-      function hideAcc() {
-        $("#demo-acc").hide();
-      }
-
-      $(document).ready(function () {
-        // $('#dark').click(function(){
-        //   const bgColor = $('body').css('backgroundColor');
-        //   // console.log(`bgColor: ${JSON.stringify(bgColor)}`);
-        //   // console.log(bgColor === 'rgb(255, 255, 255)');
-        //   // rgb(255, 255, 255) is white color
-        //   if(bgColor === 'rgb(255, 255, 255)'){
-        //     $('body').css({backgroundColor: 'black', color: 'white'})
-        //   }else{
-        //     $('body').css({backgroundColor: 'white', color: 'black'})
-        //   }
-        // });
-
-        $("#dark").click(function () {
-          $("#nav-bar").toggleClass("dark-theme");
-          $(".nav a").toggleClass("dark-theme");
-          $("#left").toggleClass("dark-theme");
-          $("#right").toggleClass("dark-theme");
-          $("#left-container a").toggleClass("dark-theme");
-          $("#acc-container").toggleClass("dark-theme");
-        });
-
-        // $('#light').click(function(){
-        //   $('body').css({backgroundColor: 'grey', color: 'black'})
-        // });
-
-        // $('#acc-btn').hover(function(){
-        //   const demoAccDisplay = $('#demo-acc').css('display');
-        //   if(demoAccDisplay === 'none'){
-        //     $('#demo-acc').css('display', 'block');
-        //   }else{
-        //     $('#demo-acc').css('display', 'none');
-        //   }
-        // })
-
-        // $('#acc-btn').hover(showAcc, hideAcc);
-
-        $("#acc-btn").hover(
-          function () {
-            $("#demo-acc").show();
-          },
-          function () {
-            $("#demo-acc").hide();
-          }
-        );
-      });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
