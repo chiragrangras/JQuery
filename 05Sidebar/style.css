@@ -10,10 +10,6 @@
     background-color: #333 !important;
     color: white !important;
 }
-.light-theme{
-    background-color: white;
-    color: #333;
-}
 .nav{
     text-align: center;
     display: flex;
@@ -39,7 +35,6 @@
 }
 
 body {
-    /* width:1263px; */
     background-color: white;
 }
 
@@ -51,6 +46,7 @@ body {
     color: black;
 }
 #left-container{
+    text-align: center;
     display: flex;
     flex-direction: column;
     padding: 20px;

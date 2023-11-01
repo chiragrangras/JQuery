@@ -14,6 +14,7 @@ $(document).ready(function () {
     $("#right").toggleClass("dark-theme");
     $("#left-container a").toggleClass("dark-theme");
     $("#acc-container").toggleClass("dark-theme");
+    $("#content").toggleClass('dark-theme');
   });
 
   $("#acc-btn").hover(
