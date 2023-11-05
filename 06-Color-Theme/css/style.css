@@ -36,6 +36,12 @@
     color: black;
     text-decoration: none;
 }
+#demo-acc{
+    display: none;
+}
+#down-acc{
+    display: none;
+}
 #center{
     width: 60%;
 }
