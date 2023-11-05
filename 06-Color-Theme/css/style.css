@@ -2,6 +2,30 @@
     margin: 0;
     padding: 0;
 }
+body.theme-white{
+    background-color: white;
+    color: black;
+}
+body.theme-orange{
+    background-color: #f4c9b7;
+    color: #b64b1e;
+}
+body.theme-green{
+    background-color: #c3e3c1;
+    color: black;
+}
+body.theme-blue{
+    background-color: #bec7e7;
+    color: black;
+}
+body.theme-purple{
+    background-color: #d0b7f4;
+    color: black;
+}
+body.theme-black{
+    background-color: #5c5c5c;
+    color: #ffffff;
+}
 #nav-bar{
     display: flex;
     justify-content: space-around;
@@ -9,7 +33,32 @@
 #nav-bar a{
     text-decoration: none;
     font-size: 20px;
-    color: black;
+}
+#themes-selector-lbl{
+    font-size: 20px;
+}
+#themes-selector{
+    font-size: 15px;
+}
+/* TODO: Add other selectors as well, please. */
+#theme-white-selector{
+    background-color: white;
+}
+#theme-orange-selector{
+    background-color: orange;
+}
+#theme-green-selector{
+    background-color: green;
+}
+#theme-blue-selector{
+    background-color: blue;
+}
+#theme-purple-selector{
+    background-color: purple;
+}
+#theme-black-selector{
+    background-color: black;
+    color: white
 }
 #main-container{
     display: flex;
@@ -21,7 +70,6 @@
     align-items: center;
 }
 #left a{
-    color: black;
     text-decoration: none;
 }
 .acc-container{
@@ -33,7 +81,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black;
     text-decoration: none;
 }
 #demo-acc{
@@ -44,6 +91,42 @@
 }
 #center{
     width: 60%;
+}
+/* TODO: Update background colors here please */
+.theme-white{
+    background-color: white;
+    color: black;
+}
+.theme-orange{
+    background-color: #f4dfd6;
+    color: #b64b1e;
+}
+.theme-green{
+    background-color: #c3e3c1;
+    color: black;
+}
+.theme-blue{
+    background-color: #bec7e7;
+    color: black;
+}
+.theme-purple{
+    background-color: #d0b7f4;
+    color: black;
+}
+.theme-black{
+    background-color: #5c5c5c;
+    color: #ffffff;
+}
+/* TODO: Add anchor tag colors here please for remaining themes */
+.theme-orange a{
+    color: #b64b1e;
+}
+
+.theme-orange button{
+    background-color: #f4c9b7;
+    color: #b64b1e;
+    padding: 5px;
+    border: 1px solid #b64b1e;
 }
 #right{
     width: 20%;
@@ -59,5 +142,4 @@
 }
 #footer-1 a, #footer-2 a, #footer-3 a{
     text-decoration: none;
-    color: black;
 }
