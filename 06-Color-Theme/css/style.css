@@ -12,15 +12,15 @@ body.theme-orange{
 }
 body.theme-green{
     background-color: #c3e3c1;
-    color: black;
+    color: #5faf3b;
 }
 body.theme-blue{
     background-color: #bec7e7;
-    color: black;
+    color: #1e41c1;
 }
 body.theme-purple{
     background-color: #d0b7f4;
-    color: black;
+    color: #7582ae;
 }
 body.theme-black{
     background-color: #5c5c5c;
@@ -103,30 +103,68 @@ body.theme-black{
 }
 .theme-green{
     background-color: #c3e3c1;
-    color: black;
+    color: #5faf3b;
 }
 .theme-blue{
     background-color: #bec7e7;
-    color: black;
+    color: #1e41c1;
 }
 .theme-purple{
     background-color: #d0b7f4;
-    color: black;
+    color: #7582ae;
 }
 .theme-black{
     background-color: #5c5c5c;
     color: #ffffff;
 }
 /* TODO: Add anchor tag colors here please for remaining themes */
+.theme-white a{
+    color: black;
+}
 .theme-orange a{
     color: #b64b1e;
 }
-
+.theme-green a{
+    color: #5faf3b;
+}
+.theme-blue a{
+    color: #1e41c1;
+}
+.theme-purple a{
+    color: #7582ae;
+}
+.theme-black a{
+    color: #ffffff;
+}
 .theme-orange button{
     background-color: #f4c9b7;
     color: #b64b1e;
     padding: 5px;
     border: 1px solid #b64b1e;
+}
+.theme-green button{
+    background-color: #c1f7be;
+    color: #5faf3b;
+    padding: 5px;
+    border: 1px solid #5faf3b;
+}
+.theme-blue button{
+    background-color: #d8def4;
+    color: #1e41c1;
+    padding: 5px;
+    border: 1px solid #1e41c1;
+}
+.theme-purple button{
+    border-color: #ecdfff;
+    color: #7582ae;
+    padding: 5px;
+    border: 1px solid #7582ae;
+}
+.theme-black button{
+    border-color: #333;
+    color: #ffffff;
+    padding: 5px;
+    border: 1px solid #ffffff;
 }
 #right{
     width: 20%;
