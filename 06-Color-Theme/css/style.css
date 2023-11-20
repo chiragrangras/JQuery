@@ -40,7 +40,6 @@ body.theme-black{
 #themes-selector{
     font-size: 15px;
 }
-/* TODO: Add other selectors as well, please. */
 #theme-white-selector{
     background-color: white;
 }
@@ -96,7 +95,6 @@ body.theme-black{
 #center{
     width: 60%;
 }
-/* TODO: Update background colors here please */
 .theme-white{
     background-color: white;
     color: black;
@@ -121,7 +119,6 @@ body.theme-black{
     background-color: #333;
     color: #ffffff;
 }
-/* TODO: Add anchor tag colors here please for remaining themes */
 .theme-white a{
     color: black;
 }
