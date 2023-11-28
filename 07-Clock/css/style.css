@@ -24,15 +24,18 @@ body{
     padding: 10px;
 }
 .clock-container{
-    background: linear-gradient(90deg,blue,yellow,pink);
+    background: black;
     padding: 5px;
     border-radius: 5px;
+    border: 5px solid greenyellow;
 }
-.clock{
+.clock{  
     position: relative;
-    background-color: black;
+    background:linear-gradient(90deg,#01ff01,#fcfc03,#ff01c4);
     border-radius: 5px;
-    color: white;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
     font-size: 60px;
     font-family: Orbitron;
     letter-spacing: 7px;
