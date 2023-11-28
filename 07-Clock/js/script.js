@@ -9,7 +9,7 @@ $(document).ready(function () {
     document.getElementById("MyDateDisplay").innerText = dateStr;
   }
 
-  showDate();
+  showDate();  
 
   function showTime() {
     var date = new Date();
@@ -38,5 +38,5 @@ $(document).ready(function () {
   }
 
   showTime();
-
+ 
 });
