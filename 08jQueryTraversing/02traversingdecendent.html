@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traversingdecendent</title>
+    <style>
+      * {
+        margin: 10px;
+      }
+    </style>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <div class="great-grand-parent">
+      <div class="grand-parent">
+        <ul class="parent">
+          <li class="child-one">Child One</li>
+          <li class="child-two">Child Two</li>
+        </ul>
+      </div>
+      <div class="grand-parent">
+        <ul class="parent">
+          <li class="child-three">Child Three</li>
+          <li class="child-four">Child Four</li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      $(".great-grand-parent").children().css("border", "2px solid green");
+      $(".grand-parent").children().css("border", "2px solid red");
+    //   $(".parent").children().css("border", "2px solid yellow");
+      $(".grand-parent").find("li").css("border", "2px solid blue");
+    //   $(".great-grand-parent").find("ul").css("border", "2px solid orange");
+    </script>
+  </body>
+</html>
